@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/ClicContador/static/css/main.1a85f9e0.css",
+    "main.js": "/ClicContador/static/js/main.3d3a11c9.js",
+    "static/media/Andresrojas.png": "/ClicContador/static/media/Andresrojas.1b8b53a5f047258cff50.png",
+    "index.html": "/ClicContador/index.html",
+    "main.1a85f9e0.css.map": "/ClicContador/static/css/main.1a85f9e0.css.map",
+    "main.3d3a11c9.js.map": "/ClicContador/static/js/main.3d3a11c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a85f9e0.css",
+    "static/js/main.3d3a11c9.js"
+  ]
+}
