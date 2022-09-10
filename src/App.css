@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+*{
+
+padding: 0;
+margin: 0;
+box-sizing: border-box; /*le dice a css como se va na comportar en ancho y alto */
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body{
+
+background-color: rgb(20, 110, 122);
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+.App{
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  display: flex;  /*asigans display fles parap oder tomar sus propieades*/
+  flex-wrap: wrap;  /*alinearlos central y verticalmente con estas `propiedades*/
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 20px;
+  font-family: Lato,sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.logo-principal-andres{
+
+  width: 68%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  box-shadow: inset 0 0 30px rgb(153, 17, 17);
+  border-radius: 20PX;
+  padding: 7px;
+  background-color: rgb(27, 65, 65);
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.logo-principal-andres:hover{
+
+opacity: 50%;
+transition: 1s;
+transform: scale(1.1);
+}
+
+.logo-andres{
+
+  width: 35%;
+}
+
+.contenedor-principal{
+
+height: 550px;
+
 }
